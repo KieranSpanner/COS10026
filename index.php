@@ -31,7 +31,7 @@
 
 
       <header>
-        <h1>Search Eng</h1>
+        <h1>Search Engine</h1>
       </header>
 
       <article id="indextext">

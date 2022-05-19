@@ -12,5 +12,7 @@ echo'<div class="navbar">
       <a class="hey" href="topic.php#rt">Related tech</a>
       <a class="hey" href="topic.php#future">The Future</a>
     </div>
-  </div>';
+  </div>
+  <a href="enhancements.php" class="hey" id="active">Enhancements</a>
+    </div>';
   ?>

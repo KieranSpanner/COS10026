@@ -53,12 +53,9 @@
     
     <iframe id="video" width="885" height="498" src="https://www.youtube.com/embed/60hX-aUi8hI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
-    <footer class="indfooter">
-        <a href="mailto:103797745@student.swin.edu.au">Md Shamsul Adnan</a>
-        <a href="mailto:104001489@student.swin.edu.au">Kieran Spanner</a>
-        <a href="mailto:104023690@student.swin.edu.au">David Chhoung</a>
-        <a href="mailto:103517163@student.swin.edu.au">Numil Fernando</a>
-      </footer>
+      <?php
+     include 'footer.inc';
+  ?>
   </body>
 
 </html>

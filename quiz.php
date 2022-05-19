@@ -10,20 +10,9 @@
     <title>Quiz</title>
   </head>
   <body>
-   <div class="navbar">
-  <a href="index.html" class="hey">Index</a>
-  <a href="quiz.html" class="hey" id="active">Quiz</a>
-    <div class="dropdown">
-   <a href="topic.html"> <button class="dropbtn">Topics 
-      <i class="fa fa-caret-down"></i>
-     </button> </a>
-    <div class="dropdown-content">
-      <a class="hey" href="topic.html#history">History</a>
-      <a class="hey" href="topic.html#ff">Functions/Features</a>
-      <a class="hey" href="topic.html#rt">Related tech</a>
-      <a class="hey" href="topic.html#future">The Future</a>
-    </div>
-  </div>
+  <?php
+     include 'header.inc';
+  ?>
   <a href="enhancments.html" class="hey">Enhancements</a>
    
     </div>
@@ -184,13 +173,9 @@
       
     </form>
     
-    <footer class="topfooter">
-        <a href="mailto:103797745@student.swin.edu.au">Md Shamsul Adnan</a>
-        <a href="mailto:104001489@student.swin.edu.au">Kieran Spanner</a>
-        <a href="mailto:104023690@student.swin.edu.au">David Chhoung</a>
-        <a href="mailto:103517163@student.swin.edu.au">Numil Fernando</a>
-      </footer>
-    
+    <?php
+     include 'footer.inc';
+  ?>
   </body>
 </html>
 

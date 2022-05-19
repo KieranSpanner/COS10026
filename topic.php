@@ -10,20 +10,9 @@
   </head>
 
   <body>
-    <div class="navbar">
-  <a href="index.html" class="hey">Index</a>
-  <a href="quiz.html" class="hey">Quiz</a>
-    <div class="dropdown">
-   <a href="topic.html"> <button class="dropbtn">Topics 
-      <i class="fa fa-caret-down"></i>
-     </button> </a>
-    <div class="dropdown-content">
-      <a class="hey" href="#history">History</a>
-      <a class="hey" href="#ff">Functions/Features</a>
-      <a class="hey" href="#rt">Related tech</a>
-      <a class="hey" href="#future">The Future </a>
-    </div>
-  </div>
+  <?php
+     include 'header.inc';
+  ?>
   <a href="enhancments.html" class="hey">Enhancements</a>
    
     </div>
@@ -244,12 +233,9 @@
   
     <a class="reference" href="Reference.txt" download>Download Reference File</a>
   
-    <footer class="topfooter">
-        <a href="mailto:103797745@student.swin.edu.au">Md Shamsul Adnan</a>
-        <a href="mailto:104001489@student.swin.edu.au">Kieran Spanner</a>
-        <a href="mailto:104023690@student.swin.edu.au">David Chhoung</a>
-        <a href="mailto:103517163@student.swin.edu.au">Numil Fernando</a>
-      </footer>
     
+    <?php
+     include 'footer.inc';
+  ?>
   </body>
 </html>

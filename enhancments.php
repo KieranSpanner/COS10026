@@ -13,9 +13,7 @@
      include 'header.inc';
   ?>
   <a href="enhancments.html" class="hey" id="active">Enhancements</a>
-    </div>
-
-  
+    </div>  
   
     <header>
     

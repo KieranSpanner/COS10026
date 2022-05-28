@@ -1,6 +1,6 @@
 <?php
 echo'<div class="navbar">
-  <a href="index.php" class="hey" id="active">Index</a>
+  <a href="index.php" class="hey">Index</a>
   <a href="quiz.php" class="hey">Quiz</a>
     <div class="dropdown">
    <a href="topic.php"> <button class="dropbtn">Topics
@@ -13,7 +13,7 @@ echo'<div class="navbar">
       <a class="hey" href="topic.php#future">The Future</a>
     </div>
   </div>
-  <a href="enhancements.php" class="hey" id="active">Enhancements</a>
-  <a href="phpenhancements.php" class="hey" id="active">PHPEnhancements</a>
+  <a href="enhancments.php" class="hey">Enhancements</a>
+  <a href="phpenhancments.php" class="hey">PHPEnhancements</a>
     </div>';
   ?>

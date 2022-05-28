@@ -13,10 +13,6 @@
   <?php
      include 'header.inc';
   ?>
-  <a href="enhancments.html" class="hey">Enhancements</a>
-   
-    </div>
-
     <header> Search Engine Quiz </header>
     <form
       action="http://mercury.swin.edu.au/it000000/formtest.php"

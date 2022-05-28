@@ -13,11 +13,6 @@
   <?php
      include 'header.inc';
   ?>
-  <a href="enhancments.html" class="hey">Enhancements</a>
-   
-    </div>
-
-    
     <header>
           <h1>Topic </h1>
     </header>

@@ -12,15 +12,13 @@
 <?php
      include 'header.inc';
   ?>
-  <a href="enhancments.html" class="hey" id="active">Enhancements</a>
-    </div>  
-  
     <header>
     
     <h1 id="">
       Enhancements
     </h1>
       </header>
+      
     <section id="enhancementstext">
     <ol>
       <li>Dropdown Button (Topic) on Navigation Bar</li>

@@ -24,7 +24,7 @@ $studentnumber = trim($_POST["StudentID"]);
 
 
 $sql_table = "attempts";
-$query = "insert into $sql_table (firstname, lastname, studentnumber) values ('$firstname', '$lastname', '$studentnumber')";
+$query = "insert into $sql_table (first_name, last_name, student_number) values ('$firstname', '$lastname', '$studentnumber')";
 $result = mysqli_query($conn, $query);
 
 if(!$result) {

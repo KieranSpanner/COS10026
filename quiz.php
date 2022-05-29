@@ -14,10 +14,7 @@
      include 'header.inc';
   ?>
     <header> Search Engine Quiz </header>
-    <form
-      action="http://mercury.swin.edu.au/it000000/formtest.php"
-      method="post"
-    >
+    <form method="post" action="manage.php">
       <fieldset>
         <legend>Student Details</legend>
         <p class="marginbottom">
@@ -29,9 +26,8 @@
             pattern="\d{7,10}"
             size="10"
             required="required"
-                 class="white"     
-          />
-        </p>
+            class="white"     
+          /></p>
         &nbsp;  
         <p>
           <label for="GivenName">Given Name</label>

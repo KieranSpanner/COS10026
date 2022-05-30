@@ -16,8 +16,8 @@
 
  <section id="enhancementstext">
     <ol>
-      <li><a href="manageattempts.php">Dropdown option to select field to sort records</a></li>
-      <li><a href="manageattempts.php">Option to select sorting order (Ascending/Descending)</a></li>
+      <li><a href="manageattempts.php#enh">Dropdown option to select field to sort records</a></li>
+      <li><a href="manageattempts.php#enh">Option to select sorting order (Ascending/Descending)</a></li>
     </ol>
   </section>
  

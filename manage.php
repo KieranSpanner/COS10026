@@ -59,7 +59,7 @@
 		$query = "";
 		
 		if($listattempt != null){
-			$query="SELECT * FROM attempts WHERE studentID LIKE '$listattempt'";
+			$query="SELECT * FROM attempts WHERE studentid LIKE '$listattempt'";
 			if($query == null){
 				$listattempt = explode(" ", $listattempt);
 				if($listattempt.count > 2){
@@ -70,18 +70,18 @@
 				$query = "SELECT * FROM attempts WHERE firstname LIKE '$firstname' AND lastname LIKE '$lastname'";
 			}	
 		}else if($deleteattempt != null){
-			$query="DELETE FROM attempts WHERE studentID LIKE '$deleteattempt'";
+			$query="DELETE FROM attempts WHERE studentid LIKE '$deleteattempt'";
 			
 		}else if($changescoreID != null AND $changescorenumber != null AND $changescorevalue != null){
-			$query="UPDATE attempts SET score = '$changescorevalue' WHERE studentID LIKE '$changescoreID' AND attemptnumber LIKE '$changescorenumber'";
+			$query="UPDATE attempts SET score = '$changescorevalue' WHERE studentid LIKE '$changescoreID' AND attemptnumber LIKE '$changescorenumber'";
 			
 		}else if($querymultichoice != null){
 			if($querymultichoice == "a"){
 				$query = "SELECT * FROM attempts";
 			}else if($querymultichoice == "b"){
-				$query = "SELECT studentID, firstname, lastname FROM attempts WHERE attemptnumber = 1 AND score = 100";
+				$query = "SELECT studentid, firstname, lastname FROM attempts WHERE attemptnumber = 1 AND score = 100";
 			}else if($querymultichoice == "c"){
-				$query = "SELECT studentID, firstname, lastname FROM attempts WHERE attemptnumber = 2 AND score < 50";
+				$query = "SELECT studentid, firstname, lastname FROM attempts WHERE attemptnumber = 2 AND score < 50";
 			}
 		}else if($sortfield != null AND $sortorder != null){
 			if($sortorder == "a"){

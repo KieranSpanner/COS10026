@@ -64,7 +64,7 @@
         <input type=\"text\" name=\"changescorenumber\" id=\"changescorenumber\" pattern=\"\d{1}\" size=\"1\" maxlength=\"1\"/>
       </p>
 	  <p><label for=\"changescorevalue\">Change Score </label> 
-        <input type=\"text\" name=\"changescorevalue\" id=\"changescorevalue\" pattern=\"\d{3}\" size=\"3\" maxlength=\"3\"/>
+        <input type=\"text\" name=\"changescorevalue\" id=\"changescorevalue\"  size=\"3\" maxlength=\"3\"/>
       </p>
 	</fieldset>
 	<fieldset class=\"querymultichoice\">

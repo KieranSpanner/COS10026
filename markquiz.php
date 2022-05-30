@@ -19,6 +19,7 @@
 
     $conn = @mysqli_connect($host, $user, $pwd, $sql_db);
     error_reporting(0);
+    error_reporting(E_ALL ^ E_NOTICE);  
     //checks if connection is successful
     if(!$conn)
     {

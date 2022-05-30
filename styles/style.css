@@ -219,6 +219,8 @@ color: black;
   float: left;
   display: flex;
 margin-top: 300px;
+position: absolute;
+bottom: 0;
 }
 .enhfooter {
   width:100% ;
@@ -237,6 +239,8 @@ margin-top: 300px;
   float: left;
   display: flex;
 margin-top: 20px;
+position: absolute;
+bottom: 0;
 }
 
 footer a {
@@ -247,12 +251,15 @@ footer a {
   margin: auto;
   padding: auto;
   font-style: italic;
-  
+  position: absolute;
+  bottom: 0;
 }
 
 footer a:hover {
   color: white;
   font-size: 120%;
+  position: absolute;
+  bottom: 0;
 }
 
 iframe {

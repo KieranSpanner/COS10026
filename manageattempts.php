@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="description" content="COS10026: Attempts page" />
   <meta name="keywords" content="HTML, Forms" />
-  <meta name="author" content="Jerrold Wong Youn Zhuet" />
+  <meta name="author" content="Md Shamsul Adnan" />
   <link href="styles/style.css" rel="stylesheet"/>
   
   <!--Reference to external responsive CSS File-->
@@ -42,7 +42,10 @@
       <p><label for=\"listattempt\">Student ID/Name </label> 
         <input type=\"text\" name=\"listattempt\" id=\"listattempt\" pattern=\"[a-zA-Z0-9 ]+\" size=\"15\"/>
       </p>
+      <input type= \"submit\" value=\"Check\"/>
     </fieldset>
+
+
     <fieldset class=\"deleteattempt\">
       <legend>
         <h4>Delete All Attempts of a Student</h4>
@@ -50,8 +53,11 @@
       <p><label for=\"deleteattempt\">Student ID </label> 
         <input type=\"text\" name=\"deleteattempt\" id=\"deleteattempt\" pattern=\"\d{7,10}\" size=\"10\"/>
       </p>
+      <input type= \"submit\" value=\"Check\"/>
 	</fieldset>
 	
+
+  
 	<fieldset class=\"changescore\">
 	  <legend>
 		<h4>Changing Score for Quiz Attempt</h4>
@@ -66,12 +72,15 @@
 	  <p><label for=\"changescorevalue\">Change Score </label> 
         <input type=\"text\" name=\"changescorevalue\" id=\"changescorevalue\"  size=\"3\" maxlength=\"3\"/>
       </p>
+      <input type= \"submit\" value=\"Change\"/>
 	</fieldset>
+
+
 	<fieldset class=\"querymultichoice\">
 	  <legend>
 		<h4>List Attempts</h4>
 	  </legend>
-      <p><label for=\"querymultichoice\">What does WWW mean?<br></label> 
+      <p><label for=\"querymultichoice\">Which list do you want to check?<br></label> 
         <select name=\"querymultichoice\" id=\"querymultichoice\">
           <option value=\"\" selected>Please Select</option>
           <option value=\"a\">List all attempts</option>			
@@ -79,6 +88,7 @@
           <option value=\"c\">List all who got less than 50% on second attempt</option>
         </select>
       </p>
+      <input type= \"submit\" value=\"Check\"/>
 	</fieldset>
 	
 	<fieldset class=\"sort\">
@@ -104,9 +114,9 @@
 			<option value=\"b\">Descending order</option>
 		</select>
 	 </p>
+   <input type= \"submit\" value=\"Check\"/>
 	</fieldset><br><br>
-    
-    <input type= \"submit\" value=\"Check\"/>
+  
   </form>";
   }
   ?>

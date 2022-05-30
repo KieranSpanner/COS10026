@@ -21,7 +21,7 @@ if (!$conn) {
 $firstname = trim($_POST["GivenName"]);
 $lastname = trim($_POST["FamilyName"]);
 $studentnumber = trim($_POST["StudentID"]);
-$datetime = date("Y/m/d"), date("h:i:sa");
+$datetime = date("Y/m/d"). date("h:i:sa");
 $sql_table = "attempts";
 $query = "INSERT INTO $sql_table (date_time, first_name, last_name, student_number) VALUES ('$datetime', '$firstname', '$lastname', '$studentnumber')";
 $result = mysqli_query($conn, $query);

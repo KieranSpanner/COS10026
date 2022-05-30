@@ -221,9 +221,10 @@ color: black;
 margin-top: 300px;
 }
 .enhfooter {
+  position : fixed;
   width:100% ;
   border-top: solid black;
-  padding-bottom: 20px;
+  padding-top: 10px;
   float: left;
   display: flex;
 margin-top: 455px;

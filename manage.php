@@ -167,9 +167,6 @@
 				}
 			}
 		}
-
-		
-			
 		mysqli_close($conn);
 	}
 ?>

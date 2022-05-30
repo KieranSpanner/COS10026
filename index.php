@@ -35,6 +35,8 @@
     
     
     <iframe id="video" width="885" height="498" src="https://www.youtube.com/embed/60hX-aUi8hI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="866" height="487" src="https://www.youtube.com/embed/VkuvjyenfD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
     
       <?php
      include 'footer.inc';

@@ -128,7 +128,7 @@
         </button>
         
         <button type="reset" value="Reset form" class="button" style="vertical-align: middle">
-        <span>Rest</span>
+        <span>Reset</span>
         </button>
       </p>
       

@@ -13,6 +13,13 @@
  <header>
     <h1 id=""> PHP Enhancements </h1>
  </header>
+
+ <section id="enhancementstext">
+    <ol>
+      <li><a href="manageattempts.php">Dropdown option to select field to sort records</a></li>
+      <li><a href="manageattempts.php">Option to select sorting order (Ascending/Descending)</a></li>
+    </ol>
+  </section>
  
   <?php include 'footer.inc'; ?>
   </body>

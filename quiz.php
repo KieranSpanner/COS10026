@@ -80,22 +80,22 @@
         </p>
         
         <p>
-          <input type="checkbox" id="a" name="question3" value="a" />
+          <input type="checkbox" id="a" name="question3[]" value="a" />
           <label for="a">A database of web documents</label>
         </p>
         
         <p>
-          <input type="checkbox" id="b" name="question3" value="b" />
+          <input type="checkbox" id="b" name="question3[]" value="b" />
            <label for="b">Databases gather webpages into index</label>
         </p>
         
         <p>    
-          <input type="checkbox" id="c" name="question3" value="c" />
+          <input type="checkbox" id="c" name="question3[]" value="c" />
           <label for="c">A search engine operating on that database</label>
         </p>
         
         <p>
-          <input type="checkbox" id="d" name="question3" value="d" />
+          <input type="checkbox" id="d" name="question3[]" value="d" />
           <label for="d">A series of programs that determine how search results are displayed</label>
         </p>
         

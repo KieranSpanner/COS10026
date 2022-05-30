@@ -36,7 +36,7 @@
         $question2 = htmlspecialchars(trim($_POST["question2"]));
         $question3 = $_POST["question3"];
         $question4 = strtolower(htmlspecialchars(trim($_POST["question4"])));
-        $question5 = strtolower(htmlspecialchars(trim($_POST["question5"])));
+        $question5 = htmlspecialchars(trim($_POST["question5"]));
 
         $errMsg = "";
 
@@ -89,7 +89,7 @@
             $marks++;
         if (count($question3) == 3)
             if(($question3[0] == "a") && ($question3[1] == "c") && ($question3[2] == "d"))
-                $marks++;
+            $marks++;
         if (($question4 == "Archie") || ($question4 == "archie"))
             $marks++;
         if ($question5 == "Y")

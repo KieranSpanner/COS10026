@@ -5,11 +5,8 @@
 	<meta name="description" content="php for manageattempts.html"/>
 	<meta name="keywords" content="PHP, MySql1"/>
 	<link href="styles/style.css" rel="stylesheet"/>
-  
-	<!--Reference to external responsive CSS File-->
 	<link href="styles/responsive.css" rel="stylesheet" media="screen and (max-width: 1024px)"/>
-		
-	<title>Query for server</title>
+	<title>Manage</title>
 </head>
 <body>
 

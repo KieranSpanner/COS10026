@@ -5,10 +5,7 @@
   <meta name="description" content="COS10026: Attempts page" />
   <meta name="keywords" content="HTML, Forms" />
   <link href="styles/style.css" rel="stylesheet"/>
-  
-  <!--Reference to external responsive CSS File-->
   <link href="styles/responsive.css" rel="stylesheet" media="screen and (max-width: 1024px)"/>
-
   <title>Manage Attempts</title>
 </head>
 <body>
@@ -17,15 +14,15 @@
 	<div id="content">
 
   <?php
-  require_once("settings.php"); //connection info
+  require_once("settings.php"); 
 
   $conn = @mysqli_connect($host, $user, $pwd, $sql_db);
 
-  //checks if connection is successful
+  
   if(!$conn)
   {
-      //Displays an error message
-      echo "<p>Database connection faliure</p>"; //not in production script
+     
+      echo "<p>Database connection faliure</p>"; 
   }
   else 
   {

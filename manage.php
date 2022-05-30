@@ -22,9 +22,8 @@ $firstname = trim($_POST["GivenName"]);
 $lastname = trim($_POST["FamilyName"]);
 $studentnumber = trim($_POST["StudentID"]);
 $datetime = date("Y/m/d"), date("h:i:sa");
-$numberattempt += 1
 $sql_table = "attempts";
-$query = "insert into $sql_table (date/time, first_name, last_name, student_number, number_attempt) values ('$datetime', '$firstname', '$lastname', '$studentnumber', '$numberattempt')";
+$query = "insert into $sql_table (date/time, first_name, last_name, student_number) values ('$datetime', '$firstname', '$lastname', '$studentnumber')";
 $result = mysqli_query($conn, $query);
 
 if(!$result) {

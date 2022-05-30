@@ -4,7 +4,6 @@
   <meta charset="utf-8" />
   <meta name="description" content="COS10026: Attempts page" />
   <meta name="keywords" content="HTML, Forms" />
-  <meta name="author" content="Md Shamsul Adnan" />
   <link href="styles/style.css" rel="stylesheet"/>
   
   <!--Reference to external responsive CSS File-->
@@ -21,8 +20,7 @@
   require_once("settings.php"); //connection info
 
   $conn = @mysqli_connect($host, $user, $pwd, $sql_db);
-  error_reporting(E_ALL ^ E_NOTICE);  
-  error_reporting(0);
+
   //checks if connection is successful
   if(!$conn)
   {
@@ -36,7 +34,6 @@
     This page is meant for queries on attempts.
   </h4>
   <form action=\"manage.php\" method=\"get\" >
-
     <fieldset>
       <legend class=\"liststudentattempt\">
         <h4>List Particular Student's Attempt</h4>
@@ -44,6 +41,7 @@
       <p><label for=\"listattempt\">Student ID/Name </label> 
         <input type=\"text\" name=\"listattempt\" id=\"listattempt\" pattern=\"[a-zA-Z0-9 ]+\" size=\"15\"/>
       </p>
+      <input type= \"submit\" value=\"Check\"/>
     </fieldset>
 
 
@@ -54,6 +52,7 @@
       <p><label for=\"deleteattempt\">Student ID </label> 
         <input type=\"text\" name=\"deleteattempt\" id=\"deleteattempt\" pattern=\"\d{7,10}\" size=\"10\"/>
       </p>
+      <input type= \"submit\" value=\"Check\"/>
 	</fieldset>
 	
 
@@ -70,8 +69,9 @@
         <input type=\"text\" name=\"changescorenumber\" id=\"changescorenumber\" pattern=\"\d{1}\" size=\"1\" maxlength=\"1\"/>
       </p>
 	  <p><label for=\"changescorevalue\">Change Score </label> 
-        <input type=\"text\" name=\"changescorevalue\" id=\"changescorevalue\" pattern=\"\d{3}\" size=\"3\" maxlength=\"3\"/>
+        <input type=\"text\" name=\"changescorevalue\" id=\"changescorevalue\"  size=\"3\" maxlength=\"3\"/>
       </p>
+      <input type= \"submit\" value=\"Change\"/>
 	</fieldset>
 
 
@@ -87,9 +87,10 @@
           <option value=\"c\">List all who got less than 50% on second attempt</option>
         </select>
       </p>
+      <input type= \"submit\" value=\"Check\"/>
 	</fieldset>
 	
-	<fieldset class=\"sort\" id=\"enh\">
+	<fieldset class=\"sort\">
 	 <legend>
 		<h4>Sort Attempts</h4>
 	 </legend>
@@ -112,10 +113,9 @@
 			<option value=\"b\">Descending order</option>
 		</select>
 	 </p>
+   <input type= \"submit\" value=\"Check\"/>
 	</fieldset><br><br>
   
-
-  <input type= \"submit\" value=\"Check\"/>
   </form>";
   }
   ?>

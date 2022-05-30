@@ -45,7 +45,7 @@
         {
             $errMsg .= "<p>You must enter your first name.</p>";
         }
-        else if (!preg_match("/^[0-9]{7}$|^[0-9]{10}$/", $studentid))
+        else if (!preg_match("/^[0-9]{7}$|^[0-9]{8}$|^[0-9]{9}$|^[0-9]{10}$/", $studentid))
         {
             $errMsg .= "<p>You must enter 7 or 10 numbers for your student ID.</p>";
         }

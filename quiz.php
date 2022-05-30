@@ -19,7 +19,7 @@
         <legend>Student Details</legend>
         <p class="marginbottom">
           <label for="studentid">StudentID</label>
-          <input type="text" name="studentid" id="Studentid" pattern="\d{7,10}" size="10" required="required" class="white"/>
+          <input type="text" name="studentid" id="Studentid" pattern="" size="10" required="required" class="white"/>
         </p>
         &nbsp; 
 

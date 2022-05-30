@@ -4,7 +4,6 @@
   <meta charset="utf-8" />
   <meta name="description" content="COS10026: Attempts page" />
   <meta name="keywords" content="HTML, Forms" />
-  <meta name="author" content="Md Shamsul Adnan" />
   <link href="styles/style.css" rel="stylesheet"/>
   
   <!--Reference to external responsive CSS File-->

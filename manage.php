@@ -4,7 +4,6 @@
 	<meta charset="utf-8"/>
 	<meta name="description" content="php for manageattempts.html"/>
 	<meta name="keywords" content="PHP, MySql1"/>
-	<meta name="author" content="Md Shamsul Adnan" />
 	<link href="styles/style.css" rel="stylesheet"/>
   
 	<!--Reference to external responsive CSS File-->

@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="description" content="Creating Web Application" />
     <meta name="keywords" content="HTML, CSS, JavaScript" />
-    <meta name="author" content="Kieran Spanner" />
     <link rel="stylesheet" href="styles/style.css" />
     <title>Quiz</title>
   </head>

@@ -5,7 +5,6 @@
         <meta name="description" content="COS10026 Mark Quiz" />
         <meta name="keywords" content="PHP, MySQL" />
         <link href="styles/style.css" rel="stylesheet"/>
-        <!--Reference to external responsive CSS File-->
         <link href="styles/responsive.css" rel="stylesheet" media="screen and (max-width: 1024px)"/>
         <title>Retrieving records to HTML</title>
     </head>

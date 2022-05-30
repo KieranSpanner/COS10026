@@ -18,17 +18,17 @@
       <fieldset>
         <legend>Student Details</legend>
         <p class="marginbottom">
-          <label for="StudentID">StudentID</label>
-          <input type="text" name="StudentID" id="Studentid" pattern="\d{7,10}" size="10" required="required" class="white"/>
+          <label for="studentid">StudentID</label>
+          <input type="text" name="studentid" id="Studentid" pattern="\d{7,10}" size="10" required="required" class="white"/>
         </p>
         &nbsp; 
 
         <p>
-          <label for="GivenName">Given Name</label>
-          <input type="text" name="GivenName" id="firstname" maxlength="15" size="10" required="required" class="white"/>
+          <label for="firstname">Given Name</label>
+          <input type="text" name="firstname" id="firstname" maxlength="15" size="10" required="required" class="white"/>
           
-        <label for="FamilyName">Family Name</label>
-          <input type="text" name="FamilyName" id="lastname" maxlength="15" size="10" required="required" class="white"/>
+        <label for="lastname">Family Name</label>
+          <input type="text" name="lastname" id="lastname" maxlength="15" size="10" required="required" class="white"/>
         </p>
       </fieldset>
 

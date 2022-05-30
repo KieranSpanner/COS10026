@@ -23,21 +23,21 @@
 		echo "<p>Database connection failure</p>";
 	}else{
 		
-		$listattempt = htmlspecialchars(trim($_GET["listattempt"]));
+		$listattempt = htmlspecialchars(trim(@$_GET["listattempt"]));
 		if($listattempt == null){
-			$deleteattempt = htmlspecialchars(trim($_GET["deleteattempt"]));
+			$deleteattempt = htmlspecialchars(trim(@$_GET["deleteattempt"]));
 			
 			if($deleteattempt == null){
-				$changescoreID = htmlspecialchars(trim($_GET["changescoreID"]));
-				$changescorenumber = htmlspecialchars(trim($_GET["changescorenumber"]));
-				$changescorevalue = htmlspecialchars(trim($_GET["changescorevalue"]));
+				$changescoreID = htmlspecialchars(trim(@$_GET["changescoreID"]));
+				$changescorenumber = htmlspecialchars(trim(@$_GET["changescorenumber"]));
+				$changescorevalue = htmlspecialchars(trim(@$_GET["changescorevalue"]));
 				if(($changescoreID != null OR $changescorenumber != null OR $changescorevalue != null) AND 
 				($changescoreID == null OR $changescorenumber == null OR $changescorevalue == null)){
 					echo "Please fill in the form correctly.";
 				}
 				
 				if($changescoreID == null AND $changescorenumber == null AND $changescorevalue == null){
-					$querymultichoice = htmlspecialchars(trim($_GET["querymultichoice"]));
+					$querymultichoice = htmlspecialchars(trim(@$_GET["querymultichoice"]));
 					
 					if($querymultichoice == null){
 						$sortfield = htmlspecialchars(trim($_GET["sortfield"]));
@@ -93,7 +93,7 @@
 		
 		if($query != "")
 		{
-			$result = mysqli_query($conn, $query);
+			$result = @mysqli_query($conn, $query);
 
 			if(!$result){
 				echo "<p class=\"wrong\">Something is wrong with ", $query, "</p>";

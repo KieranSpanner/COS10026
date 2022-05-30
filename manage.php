@@ -22,9 +22,11 @@ $firstname = trim($_POST["GivenName"]);
 $lastname = trim($_POST["FamilyName"]);
 $studentnumber = trim($_POST["StudentID"]);
 $datetime = date("Y/m/d"), date("h:i:sa");
+$numberattempt = "select COUNT(student_number) FROM attempts WHERE studnet_number = '$studentnumber'";
+$attempt = $numberattempt;
 $sql_table = "attempts";
-$query = "insert into $sql_table (date/time, first_name, last_name, student_number) values ('$datetime', '$firstname', '$lastname', '$studentnumber')";
-$result = mysqli_query($conn, $query);
+$query = "insert into $sql_table (date/time, first_name, last_name, student_number, number_attempt) values ('$datetime', '$firstname', '$lastname', '$studentnumber', '$attempt')";
+$result = mysqli_query($conn, $query, $numberattempt);
 
 if(!$result) {
     echo "<p class=\"wrong\">Something is wrong with ", $query, "</p>";

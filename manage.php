@@ -21,7 +21,9 @@
 	$conn = @mysqli_connect($host, $user, $pwd, $sql_db);
 	if(!$conn){
 		echo "<p>Database connection failure</p>";
-	}else{
+	}
+    
+    @else{
 		
 		$listattempt = htmlspecialchars(trim(@$_GET["listattempt"]));
 		if($listattempt == null){

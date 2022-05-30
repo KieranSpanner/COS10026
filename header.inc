@@ -15,6 +15,6 @@ echo'<div class="navbar">
   </div>
   <a href="enhancments.php" class="hey">Enhancements</a>
   <a href="phpenhancments.php" class="hey">PHPEnhancements</a>
-  <a href="management.php" class="hey">Management</a>
+  <a href="manage.php" class="hey">Manage</a>
     </div>';
   ?>

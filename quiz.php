@@ -105,20 +105,20 @@
       <fieldset>
         <legend>Question 4</legend>
 
-        <p><label for="textquestion">What was the first search engine called?</label></p>
+        <p><label for="question4">What was the first search engine called?</label></p>
         
         <p>
-          <textarea class="white" id="textquestion" name="question4" rows="4" cols="40" placeholder="Write the anwser to the question here...."></textarea>
+          <textarea class="white" id="question4" name="question4" rows="4" cols="40" placeholder="Write the anwser to the question here...."></textarea>
         </p>
       </fieldset>
     
     <fieldset>
         <legend>Question 5</legend>
         <p>
-          <label for="a">Is a search engine the same as a web browser? (Y or N answer only)</label>
+          <label for="question5">Is a search engine the same as a web browser? (Y or N answer only)</label>
       </p>
       <p>
-         <input type="text" name="question5" id="a" maxlength="1" required="required" class="white"/>
+         <input type="text" name="question5" id="question5" maxlength="1" required="required" class="white"/>
         </p>
       </fieldset>
 

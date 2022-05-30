@@ -71,7 +71,7 @@
 	  <legend>
 		<h4>List Attempts</h4>
 	  </legend>
-      <p><label for=\"querymultichoice\">Which of the following can a proxy server mask to an end website?<br></label> 
+      <p><label for=\"querymultichoice\">What does WWW mean?<br></label> 
         <select name=\"querymultichoice\" id=\"querymultichoice\">
           <option value=\"\" selected>Please Select</option>
           <option value=\"a\">List all attempts</option>			
